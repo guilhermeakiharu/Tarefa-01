@@ -1,0 +1,64 @@
+body
+{
+    background-color: #3e76ca;
+}
+
+h2 
+{
+    letter-spacing: -1px;
+  }
+
+img
+{
+
+width: 17%;
+height: 17%;
+}
+
+.cabecalho 
+{
+  align-items: center;
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+}
+.cabecalho p
+{
+  margin: 0;
+  color: #030303;
+  text-align: center;
+
+}
+
+.menu ul 
+{
+border: 1px solid #000000;
+background-color: #df2929;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+  
+.menu li a
+{
+  color: rgb(199, 199, 199);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+.menu li{
+  border-right: 1px solid #bbb;
+  float:left ;
+
+}
+
+li a:hover
+{
+  background-color: #3e76ca;
+}
